@@ -1,0 +1,39 @@
+body{
+    overflow-x: hidden;
+}
+.about-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../img/back-img.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.cart-container{
+    min-height: 400px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.cart-container img{
+    height: 80%;
+    object-fit: cover;
+}
+.cart-container .cart-item{
+    height: 20%;
+    background-color: white;
+    padding: 15px;
+    transition: 500ms;
+}
+.cart-container:hover .cart-item{
+    transform: translateY(-80px);
+}
+.cart-container .footer-social{
+    font-size: 16px;
+}
+.cart-container .footer-social *{
+    margin: 0 3px;
+    background-color: #eaeaea;
+    padding: 5px;
+    color: #2C2B5E;
+
+}
+.MeetTeacher >img{
+    width: 120px;
+}

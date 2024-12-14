@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.links a:not(:last-child) {
+  margin: 0 10px;
+}
+
+
+.course-offer,
+.student {
+  background-image: linear-gradient(rgba(44, 43, 94, 0.92), rgba(44, 43, 94, 0.92)), url("../img/6.webp");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.mapswrapper {
+  background: #fff;
+  position: relative
+}
+
+.mapswrapper iframe {
+  border: 0;
+  position: relative;
+  z-index: 2
+}
+
+.mapswrapper a {
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0
+}
+
+
+input:focus {
+  outline: none !important;
+}
+
+.header-bg {
+  background-image: url("../img/Screenshot\ 2024-11-21\ 211652.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+}
+
+.text-hover:hover {
+  color: red !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.scrclr {
+  height: 210px;
+  overflow-y: scroll;
+}
+.scrclr::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+.scrclr::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+.content-events>span {
+  padding: 5px 0;
+}
+
+.UP-CONT a:hover {
+  background-color: red;
+  color: white !important;
+}
+
+footer {
+  color: #606060;
+  background-color: #2C2B5E;
+}
+
+
+footer a,
+footer span {
+  text-decoration: none;
+  color: #606060;
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+
+footer a:hover {
+  color: red;
+}
+
+
+
+footer a>i {
+  padding: 9px;
+  border: 1px solid #a5a5a5;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+.card {
+  margin: 20px 0;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.card {
+  margin: 20px;
+}
+
+
+
+.address-container {
+  text-align: center;
+  padding: 40px 80px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.address-container .address1,
+.address2,
+.address3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+
+}
+
+.address-container i {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.headSearch {
+  padding: 14px;
+  display: inline-block;
+  padding-right: 80px;
+}
+
+.headSearch::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  background-color: white;
+  width: 50px;
+  height: 100px;
+  left: 320px;
+  transform: rotate(-30deg);
+}
+
+
+.subscribeOurNewsletter{
+  padding: 50px 0;
+}
+
+
+
+/* Reset page */
+h1,h2, h3, h4, h5, h6{
+  text-transform: uppercase !important ;
+}
+
+section .row .card{
+ min-height: 450px !important;
+}
+.Date-location span:last-child{
+  display: inline-block;
+  margin-left: 15px;
+}
+.eventItem{
+  min-height: 210px;
+  margin: 20px;
+}
+.eventItem img{
+  width: 230px; 
+  height: 100%;
+  padding: 0 !important;
+}
+.content-events> span:first-child{
+  color: #2c2b5e;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content-events{
+  padding: 20px 0 0 20px;
+}
+.content-events span{
+  font-size: 14px;
+}
+.content-events h5{
+  padding: 2px 0;
+}
+
+
+iframe{
+  width: 100%;
+  height: 300px;
+}
+.prof-teacher > div{
+margin: 20px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: red !important;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2; 
+}
+.carousel-caption h1{
+  font-size: 50px;
+}
+
+.COURSEFEATURESCONTENT{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+
+@media screen and (max-width:1000px){
+   .courseDetailsContainer{
+    flex-direction: column;
+   }
+ 
+  .title-course{
+    flex-direction: column;
+    justify-content: flex-start !important;
+     
+  }
+  .title-course h2{
+    margin: 0 !important;
+    padding: 3px 0 !important;
+  }
+  .Img3d{
+    width: 150px;
+    height: 200px !important;
+    
+  }
+  .Img3d img{
+    width: 100%;
+    height: 220px;
+  }
+}
+
+
+@media screen and (max-width:1235px){
+  .eventItem .Date-location{
+    flex-direction: column;
+  }
+  .eventItem .Date-location span{
+    padding: 4px 0;
+    margin: 0 !important;
+
+  }
+} 
+
+@media screen and (max-width:630px) {
+  .headSearch::after{
+    display: none;
+  }
+  footer .container-fluid .row {
+    padding: 100px 20px !important;
+  }
+
+  main {
+    padding: 20px 0 !important;
+  }
+  .subscribeOurNewsletter .row{
+    min-height: 300px; background: #FAFAFA !important;
+    padding: 0 5px;
+  }
+
+  .subscribeOurNewsletter .input-group {
+    flex-direction: column;
+  }
+  .subscribeOurNewsletter .input-group input{
+    width: 100% !important;
+  }
+  .Date-location{
+    flex-direction: column;
+    
+  }
+  .Date-location span{
+    font-size: 14px;
+  }
+  .eventItem{
+    padding: 0;
+  }
+  .view-courses{
+    flex-direction: column;
+  }
+  .view-courses > div{
+    width: 90%;
+    margin: 80px 0 ;
+  }
+  .Img3d{
+    width: 90% !important;
+    height: 300px !important;
+  }
+  .Img3d img{
+    width: 100%;
+    height: 320px;
+  }
+  .carousel-caption h1{
+    font-size: 24px;
+  }
+  
+}
